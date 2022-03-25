@@ -1,0 +1,19 @@
+n = int(input("введите 1 число"))
+m = int(input("введите 2 число"))
+u = int(input("введите 3 число"))
+if n>m:
+    if n > u:
+        print("первое число больше")
+    if n < u:
+        print("третье число больше")
+    if n == u:
+        print("n и u ровны")
+elif n<m:
+    if m > u:
+        print("второе число больше")
+    if m < u:
+        print("третье число больше")
+    if m == u:
+        print("m и u ровны")
+else n == m
+        print("n и m ровны")
