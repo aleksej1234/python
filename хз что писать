@@ -1,0 +1,13 @@
+num = int(input("введите число"))
+if num > 0 and num <= 1000:
+    print("скидок нет")
+if num > 1000 and num <= 5000:
+    print("скидок 5%")
+    num=0.95 * num
+if num > 5000 and num <= 10000:
+    print("скидок 10%")
+    num=0.9 * num
+if num > 10001:
+    print("скидок 15%")
+    num=0.85 * num
+print(num)
