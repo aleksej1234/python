@@ -1,0 +1,7 @@
+produсts = ["марковка","капуста","укроп"]
+a=input("product")
+produсts.append(a)
+d=input("product")
+produсts.append(d)
+for i in range(len(produсts)):
+    print(produсts[i])
