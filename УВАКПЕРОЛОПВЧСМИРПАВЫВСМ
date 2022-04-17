@@ -1,0 +1,13 @@
+todo_list = []
+while True:
+    command = input("введите каманду,Д-добавить,У-удалить,Р-распечатать,П-переписывать")
+    if command == "Д":
+        a = input("какую команду добавить?")
+        todo_list.append(a)
+    elif command == "Р":
+        for p in todo_list:
+            print(p)
+    elif command == "У":
+        l = int(input("какой удалить?"))
+        todo_list.pop(l)
+    print(todo_list)
