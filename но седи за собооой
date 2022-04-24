@@ -1,0 +1,21 @@
+MyLab = [["*","*","*","*","*",],
+         ["*","*","*","*","*",],
+         ["*","*","*","*","*",],
+         ["*","*","*","*","*",],
+         ["*","*","*","*","*",]]
+#MyLab[f][p] = "O"
+
+for stroka in MyLab:
+    for symb in stroka:
+        print(symb, end="")
+    print()
+while True:
+    f=int(input("введите строку"))
+    p=int(input("введите столбец"))
+    MyLab[f][p] ="O"
+    for stroka in MyLab:
+        for symb in stroka:
+           print(symb, end="")
+        print()
+
+
