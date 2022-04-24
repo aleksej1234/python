@@ -1,0 +1,23 @@
+todo_list = ["банан","хлеб","молоко"]
+while True:
+    command = input("введите каманду,Д-добавить,У-удалить,Р-распечатать,П-переписывать,В-вывести,Н-наличие")
+    if command == "Д":
+        a = input("какую команду добавить?")
+        todo_list.append(a)
+    elif command == "Р":
+        for p in todo_list:
+            print(p)
+    elif command == "У":
+        l = int(input("какой удалить?"))
+        todo_list.pop(l)
+    elif command == "П":
+        d = int(input("что переписать?"))
+        H = input("что редактировать?")
+        todo_list[d]=H
+    elif command == "В":
+        w = int(input("что вывести?"))
+        j = w-1
+        print(todo_list[j])
+    elif command == "Н":
+        for i in range(len(todo_list)):
+            print(todo_list[i])
