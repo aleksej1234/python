@@ -1,0 +1,7 @@
+num = input('введите пароль')
+while num != '666':
+       num = input(' не верно')
+num = input('введите логин')
+while num != '228':
+       num = input('логин неверно')
+print('успешный вход')
