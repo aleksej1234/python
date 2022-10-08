@@ -1,0 +1,6 @@
+import pyautogui
+import time
+pyautogui.click()
+time.sleep(0.25)
+while True:
+ 
