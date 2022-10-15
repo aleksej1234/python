@@ -1,0 +1,4 @@
+n=int(input('введите число'))
+sum =(0)
+for step in range(0-n):
+    print()
