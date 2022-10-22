@@ -1,0 +1,12 @@
+comand=input("Введите команду").lower()
+
+while comand !="выход":
+    if comand == "стишок":
+        print("я не знаю стихов")
+    elif comand == "рифма":
+       slovo = input("введите любое слово")
+       print("небо"+slovo)
+    
+    
+    comand = input("введите команду")
+print("конец")
