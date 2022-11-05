@@ -1,0 +1,5 @@
+produсts = ["марковка","капуста","укроп"]
+produсts.remove(input("удали что то из списка"))
+produсts.remove(input("добавь что то в список"))
+for i in range(len(produсts)):
+    print(produсts[i])
