@@ -1,0 +1,4 @@
+produсts = ["марковка","капуста","укроп"]
+produсts.insert(2,input("введите новый элемент сптска,он всьане под индексом 2"))
+for i in range(0,len(produсts)):
+    print(produсts[i])
