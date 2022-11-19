@@ -1,0 +1,9 @@
+def specDetektor(login):
+    print("login")
+    for num in ['-','+','*',':']:
+           def login(im,ot,fam):
+               for elem in str(login):
+                   if num == elem:
+                       print("неверный парроль")
+login = input("введите пароль :")
+specDetektor(login)
