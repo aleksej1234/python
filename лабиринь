@@ -1,0 +1,184 @@
+pole=[["*","*","*","=","=",],
+     ["-","*","*","-","-",],
+     ["-","-","*","=","-",],
+     ["-","-","*","=","-",],
+     ["-","*","*","-","-",],
+     ["-","=","*","-","-",],
+     ["-","-","*","*","-",],
+     ["-","-","-","*","-",]]
+a = int(input("пиши 0 "))
+b = int(input("пиши 0"))
+pole[a][b] = "o"
+for stroka in pole:
+    for kletka in stroka:
+        print(kletka,end =" ")
+    print()
+d = input("куда пойдешь налево,направо,вперед,назад")
+if d == "направо":
+    pole[a][b] = "*"
+    pole[a][b+1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "налево":
+    pole[a][b] = "*"
+    pole[a][b-1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "назад":
+    pole[a][b] = "*"
+    pole[a-1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "вперед":
+    pole[a][b] = "*"
+    pole[a+1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+d = input("куда пойдешь налево,направо,вперед,назад")
+if d == "направо":
+    pole[a][b] = "*"
+    pole[a][b+1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "налево":
+    pole[a][b] = "*"
+    pole[a][b-1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "назад":
+    pole[a][b] = "*"
+    pole[a-1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "вперед":
+    pole[a][b] = "*"
+    pole[a+1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+d = input("куда пойдешь налево,направо,вперед,назад")
+if d == "направо":
+    pole[a][b] = "*"
+    pole[a][b+1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "налево":
+    pole[a][b] = "*"
+    pole[a][b-1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "назад":
+    pole[a][b] = "*"
+    pole[a-1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "вперед":
+    pole[a][b] = "*"
+    pole[a+1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+d = input("куда пойдешь налево,направо,вперед,назад")
+if d == "направо":
+    pole[a][b] = "*"
+    pole[a][b+1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "налево":
+    pole[a][b] = "*"
+    pole[a][b-1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "назад":
+    pole[a][b] = "*"
+    pole[a-1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "вперед":
+    pole[a][b] = "*"
+    pole[a+1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+d = input("куда пойдешь налево,направо,вперед,назад")
+if d == "направо":
+    pole[a][b] = "*"
+    pole[a][b+1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "налево":
+    pole[a][b] = "*"
+    pole[a][b-1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "назад":
+    pole[a][b] = "*"
+    pole[a-1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "вперед":
+    pole[a][b] = "*"
+    pole[a+1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+d = input("куда пойдешь налево,направо,вперед,назад")
+if d == "направо":
+    pole[a][b] = "*"
+    pole[a][b+1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "налево":
+    pole[a][b] = "*"
+    pole[a][b-1] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "назад":
+    pole[a][b] = "*"
+    pole[a-1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
+        print()
+if d == "вперед":
+    pole[a][b] = "*"
+    pole[a+1][b] = "o"
+    for stroka in pole:
+        for kletka in stroka:
+            print(kletka,end =" ")
