@@ -1,0 +1,12 @@
+lox =[25, 30, 70,]
+def foo(a, b , c):
+    s = a + b +c
+    return s
+otvet = foo(25,30,70)
+print(lox)
+
+def foo(a, b, c):
+    d = a+b+c
+    return d
+otvet = foo(25, 30, 70,)
+print(otvet)
