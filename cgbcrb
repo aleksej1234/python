@@ -1,0 +1,50 @@
+a = int(input("факториал числа до 8"))
+if a == 1:
+    def foo(a):
+        if a == 1:
+            c = a * 1
+            print(c)
+    foo(a)
+elif a == 2:
+      def foo(a,k):
+        if a == 2:
+            c = a * k
+            print(c)
+      foo(a)
+elif a == 3:
+      def foo(a,k,l):
+        if a == 3:
+            c = a * l
+            print(c)
+      foo(a)
+elif a == 4:
+      def foo(a,k,l,p):
+        if a == 4:
+            c = a * p
+            print(c)
+      foo(a)
+      foo(a)
+elif a == 5:
+      def foo(a,k,l,p,h):
+        if a == 5:
+            c = a * h
+            print(c)
+      foo(a)
+elif a == 6:
+      def foo(a,k,l,p,h,g):
+        if a == 6:
+            c = a * g
+            print(c)
+      foo(a)
+elif a == 7:
+      def foo(a,k,l,p,h,g,q):
+        if a == 7:
+            c = a * q
+            print(c)
+      foo(a)
+elif a == 8:
+      def foo(a,k,l,p,h,g,q,w):
+        if a == 8:
+            c = a * w
+            print(c)
+      foo(a)
