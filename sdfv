@@ -1,0 +1,16 @@
+n=int(input("веди "))
+b=int(input("веди "))
+if n > b:
+   def printen(n, max):
+      if n != max:
+          print(n)
+          printen(n+1, max)
+        
+printen(1,n+1)
+if n < b:
+   def printen(n, max):
+      if n != max:
+          print(n)
+          printen(n+1, max)
+        
+printen(1,b-1)
