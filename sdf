@@ -1,0 +1,7 @@
+n=int(input("веди число"))
+def printen(n, max):
+      if n != max:
+          print(n)
+          printen(n+1, max)
+        
+printen(1,n)
