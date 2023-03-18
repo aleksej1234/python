@@ -1,0 +1,24 @@
+import mylib
+# массивы и функция vyvodPolya в файле mylib.py           
+
+        
+mylib.vyvodPolya(mylib.vidimost_polya)
+game = True
+
+
+while game:
+    stroka = int(input("Введите номер строки"))
+    stolb = int(input("Введите номер столбца"))
+    while stroka <0 or stolb <12 or stolb <0 or stroka >12:
+        print("строка или столбец введено неверно")
+        stroka=int(input("введите номер строки"))
+        stolb=int(input("введите номер стoлба"))
+        
+    
+    # передадим не номера строки и столбца, а индексы
+    mylib.check(stroka-1,stolb-1)
+    mylib.vyvodPolya(mylib.vidimost_polya)
+    if mylib.isOpen():
+        game = False
+
+print("Всё поле открыто!")
