@@ -1,0 +1,63 @@
+import time
+print("слова")
+R=[" считали кошку священным животным. Когда питомец умирал, для людей это было большим горем. В знак траура они избавлялись от… Чего? Ответ дайте во множественном числе.5 букв"]
+h=input("считали кошку священным животным. Когда питомец умирал, для людей это было большим горем. В знак траура они избавлялись от… Чего? Ответ дайте во множественном числе.5 букв")
+count = 0
+if h == 'да':
+    b=input("ТЫ ГОТОВ?:")
+    print("1 раунд")
+right_answers = ['б', 'р', 'о', 'в', 'и', "брови"]
+ 
+answer = input('1раунд\nбуква')
+if ( answer in right_answers ):
+  print('верно')
+else:
+  print('неверно')
+print("2 ВОПРОС")
+right_answers = ['б', 'р', 'о', 'в', 'и', "брови"]
+ 
+answer = input('2раунд\nбуква')
+if ( answer in right_answers ):
+  print('верно')
+else:
+  print('неверно')
+print("3 ВОПРОС")
+right_answers = ['б', 'р', 'о', 'в', 'и', "брови"]
+ 
+answer = input('3раунд\nбуква')
+if ( answer in right_answers ):
+  print('верно\nб----')
+else:
+  print('неверно')
+print("4 ВОПРОС")
+right_answers = ['б', 'р', 'о', 'в', 'и', "брови"]
+ 
+answer = input('4раунд\nбуква')
+if ( answer in right_answers ):
+  print('верно\nб---и')
+else:
+  print('неверно')
+print("5 ВОПРОС")
+right_answers = ['б', 'р', 'о', 'в', 'и', "брови"]
+ 
+answer = input('5раунд\nбуква')
+if ( answer in right_answers ):
+  print('верно\nбр--и')
+else:	
+  print('неверно')
+print("6 ВОПРОС")
+right_answers = ['б', 'р', 'о', 'в', 'и', "брови"]
+ 
+answer = input('6раунд\nбуква')
+if ( answer in right_answers ):
+  print('верно\nбро-и')
+else:
+  print('неверно')
+print("6 ВОПРОС")
+right_answers = ['б', 'р', 'о', 'в', 'и', "брови"]
+ 
+answer = input('6раунд\nбуква')
+if ( answer in right_answers ):
+  print('верно\nброви\nконец')
+else:
+  print('неверно')
